@@ -114,6 +114,32 @@ python "24.09.25 Missao 4.py"  # Missão 4
 - Desenvolvimento de habilidades práticas em **Python e scikit-learn**.  
 - Capacidade de **criar, treinar e avaliar modelos** com base em dados reais e simulados.  
 - Entendimento do **processo de tomada de decisão automatizada**, ajustando parâmetros e interpretando previsões.  
-- Aprendizado sobre **interatividade, testes e experimentação** de modelos em diferentes contextos (educacional, financeiro, médico e ambiental).  
+- Aprendizado sobre **interatividade, testes e experimentação** de modelos em diferentes contextos (educacional, financeiro, médico e ambiental).
+  
+---
+## 🤝 Contribuindo  
+
+Este projeto foi desenvolvido como parte de um estudo prático em **Aprendizado de Máquina**, com foco em **aplicações reais e experimentação de algoritmos**.  
+Sinta-se à vontade para contribuir com melhorias, como:  
+
+- 🧠 **Aprimorar os modelos e algoritmos existentes**  
+- 📊 **Adicionar novos conjuntos de dados e testes experimentais**  
+- 🧹 **Melhorar o pré-processamento e tratamento dos dados**  
+- ⚙️ **Implementar métricas de avaliação e visualizações adicionais**  
+- 📈 **Explorar novas abordagens de aprendizado supervisionado, não supervisionado e por reforço**  
+
+---
+
+## 📝 Licença  
+
+Este projeto tem **fins educacionais** e é **de código aberto**, podendo ser utilizado livremente para estudo, aprimoramento e pesquisa.  
+
+---
+
+## 👩‍💻 Autoria  
+
+Criado e mantido por **Joice Barbosa**, em colaboração com **mais quatro colegas de classe**.  
+Este projeto é **acadêmico** e foi desenvolvido durante as aulas de **Machine Learning**, ministradas pelo professor **[Flávio Santarelli](https://github.com/PROFSANTARELLI)**.  
+
 
 
