@@ -25,9 +25,6 @@ O objetivo deste projeto é apresentar **soluções práticas** com algoritmos d
 ---
 ## 📚 Bibliotecas Principais
 ```python
-
-## Bibliotecas principais:
-
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LinearRegression
@@ -37,6 +34,19 @@ from sklearn.tree import DecisionTreeClassifier
 import re
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
+```
+
+
+## **📁 Estrutura do Projeto**
+```plaintext
+Machine-Learning-Tasks/
+├── Missoes.txt               # Descrição das missões e objetivos
+├── Missao 1.py               # Implementação da missão 1
+├── Missao 2.py               # Implementação da missão 2
+├── Missao 3.py               # Implementação da missão 3
+├── Missao 4.py               # Implementação da missão 4
+├── README.md                 # Este arquivo contem informações do projeto
+```
 
 
 
