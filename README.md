@@ -138,8 +138,7 @@ Este projeto tem **fins educacionais** e é **de código aberto**, podendo ser u
 
 ## 👩‍💻 Autoria  
 
-Criado e mantido por **Joice Barbosa**, em colaboração com **mais quatro colegas de classe**.  
-Este projeto é **acadêmico** e foi desenvolvido durante as aulas de **Machine Learning**, ministradas pelo professor **[Flávio Santarelli](https://github.com/PROFSANTARELLI)**.  
+Criado e mantido por **Joice Barbosa**, em colaboração com **mais quatro colegas de classe**. Este projeto é **acadêmico** e foi desenvolvido durante as aulas de **Machine Learning**, ministradas pelo professor **[Flávio Santarelli](https://github.com/PROFSANTARELLI)**.  
 
 
 
