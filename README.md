@@ -57,33 +57,67 @@ O objetivo deste projeto é apresentar **soluções práticas** com algoritmos d
   - Diagnóstico médico (Gripe ou Resfriado) baseado em febre e tosse.
 - Aplicação prática de modelos supervisionados com dados contínuos e categóricos.
 - Desenvolvimento de interatividade e previsão para novos dados.
+
+## Missão 5 – Modelagem Preditiva e Classificação Aplicada
+
+- Desenvolvimento de modelos de **Regressão Linear** para prever o **preço de imóveis e carros usados**, utilizando variáveis numéricas e categóricas.  
+- Implementação de **pipelines com pré-processamento automático**, incluindo normalização e codificação de dados.  
+- Criação de um modelo de **Classificação (Churn)** com **Regressão Logística** para identificar clientes com risco de cancelamento.  
+- Avaliação dos modelos com **MAE, R², Acurácia e Matriz de Confusão**, além de visualizações gráficas comparando resultados reais e previstos.  
+
 ---
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.x**  
-- **scikit-learn**: modelos de aprendizado de máquina  
-- **NumPy**: cálculos e manipulação de dados  
-- **Regex**: processamento de texto
+- **Python 3.x** – Linguagem principal para desenvolvimento dos modelos  
+- **scikit-learn**
+  - Modelos de aprendizado de máquina 
+  – Criação e avaliação de modelos de regressão e classificação  
+  - `LinearRegression`, `LogisticRegression`  
+  - `train_test_split`, `ColumnTransformer`, `Pipeline`  
+  - `OneHotEncoder`, `StandardScaler`, `SimpleImputer`  
+  - Métricas: `mean_absolute_error`, `r2_score`, `accuracy_score`, `confusion_matrix`, `classification_report`
+- **Pandas** – Manipulação e análise de dados tabulares  
+- **NumPy** – Operações numéricas e vetorização , cálculos e manipulação de dados
+- **Regex** - processamento de texto
+- **Matplotlib** – Visualização de comparativos entre valores reais e previstos  
+- **Seaborn** – Exibição gráfica da matriz de confusão  
 
 ---
 ## 📚 Bibliotecas Principais
+
 ```python
 import numpy as np
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LinearRegression
-from sklearn.cluster import KMeans
+import pandas as pd
 import time
-from sklearn.tree import DecisionTreeClassifier
 import re
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.cluster import KMeans
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.metrics import (
+    mean_absolute_error,
+    r2_score,
+    accuracy_score,
+    confusion_matrix,
+    classification_report
+)
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 ```
-
 
 ## **📁 Estrutura do Projeto**
 ```plaintext
 ML-CHATBOT/
 ├── 03.09.25 Missao 2.py
+├── 08.10.25 Missao 5.py
 ├── 10.09.25 Missao 3.py
 ├── 24.09.25 Missao 4.py
 ├── 27.08.25 Missao 1.py
@@ -108,6 +142,7 @@ python "27.08.25 Missao 1.py"  # Missão 1
 python "03.09.25 Missao 2.py"  # Missão 2
 python "10.09.25 Missao 3.py"  # Missão 3
 python "24.09.25 Missao 4.py"  # Missão 4
+python "08.10.25 Missao 5.py"  # Missão 5
 ```
 ### 🎯 **Resultados de Aprendizagem Obtidos**
 - Compreensão dos principais algoritmos de **Machine Learning supervisionado, não supervisionado e por reforço**.  
@@ -115,6 +150,7 @@ python "24.09.25 Missao 4.py"  # Missão 4
 - Capacidade de **criar, treinar e avaliar modelos** com base em dados reais e simulados.  
 - Entendimento do **processo de tomada de decisão automatizada**, ajustando parâmetros e interpretando previsões.  
 - Aprendizado sobre **interatividade, testes e experimentação** de modelos em diferentes contextos (educacional, financeiro, médico e ambiental).
+- Aplicação prática de **regressão e classificação**, uso de **pipelines**, **métricas de desempenho** e **visualização de resultados** em contextos reais.
   
 ---
 ## 🤝 Contribuindo  
